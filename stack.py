@@ -1,6 +1,7 @@
 class Stack(object):
-    dataList = []
-    def peak(self):
+    def __init__(self, data = []):
+        self.dataList = data
+    def peek(self):
         if self.isEmpty():
             return None
         else:
