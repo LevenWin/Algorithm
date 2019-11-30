@@ -3,7 +3,7 @@ class Stack(object):
         self.dataList = data
     def peek(self):
         if self.isEmpty():
-            return None
+            return 0
         else:
             return self.dataList[-1]
     def push(self, obj):
