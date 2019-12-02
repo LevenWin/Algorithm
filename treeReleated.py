@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-from tree import Tree
+from tree import TreeNode
 def lastOrder(t):
     if t ==  None:
         return
@@ -23,15 +23,15 @@ def firstOrder(t):
     pass
 
 def initTree():
-    t1 = Tree()
+    t1 = TreeNode()
     t1.value = 1
-    t2 = Tree()
+    t2 = TreeNode()
     t2.value = 2
-    t3 = Tree()
+    t3 = TreeNode()
     t3.value = 3
-    t4 = Tree()
+    t4 = TreeNode()
     t4.value = 4
-    t5 = Tree()
+    t5 = TreeNode()
     t5.value = 5
     t1.left = t2
     t1.right = t3

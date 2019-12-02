@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-class Tree(object):
+class TreeNode(object):
     def __init__(self):
         self.left = None
         self.right = None
