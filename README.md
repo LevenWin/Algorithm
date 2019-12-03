@@ -5,3 +5,4 @@
 4. [利用单调栈解决数组内前后元素大小的问题](https://github.com/LevenWin/alogrithm/blob/master/2min.py)
 5. [遍历二叉树](https://github.com/LevenWin/alogrithm/blob/master/treeReleated.py)
 6. [反转二叉树](https://github.com/LevenWin/alogrithm/blob/master/reverseTree.py)
+6. [利用单调栈求解子矩阵中全为1的最大子矩阵](https://github.com/LevenWin/alogrithm/blob/master/maxSubRect.py)
