@@ -7,3 +7,4 @@
 6. [反转二叉树](https://github.com/LevenWin/alogrithm/blob/master/reverseTree.py)🌟
 6. [利用单调栈求解子矩阵中全为1的最大子矩阵](https://github.com/LevenWin/alogrithm/blob/master/maxSubRect.py) 🌟🌟🌟
 7. [最大值减去最小值小于或等于num的子数组数量](https://github.com/LevenWin/alogrithm/blob/master/12-4.py) 🌟🌟🌟🌟
+7. [可见山峰的数量](https://github.com/LevenWin/alogrithm/blob/master/12-5.py) 🌟🌟🌟🌟
