@@ -11,6 +11,10 @@ class LinkedLink(object):
         self.head = LinkNode()
         self.end = self.head
         self.count = 0
+    def addList(self,l):
+        for i in l:
+            self.add(LinkNode(i))
+        
     def __str__(self):
         p = "H"
         h = self.head.next
