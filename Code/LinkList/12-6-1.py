@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# 链表倒数第k个节点
+# 删除链表倒数第k个节点
 from linkedlist import LinkedLink
 from linkedlist import LinkNode
 
