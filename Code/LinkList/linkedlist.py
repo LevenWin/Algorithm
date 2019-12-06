@@ -11,7 +11,17 @@ class LinkedLink(object):
         self.head = LinkNode()
         self.end = self.head
         self.count = 0
+    def __str__(self):
+        p = "H"
+        h = self.head.next
+        while h != None:
+           p = p + "->" + str(h.value)
+           h = h.next
+        p = p + "->E"
+        return p
+
     def add(self, node):
+        node.previous = self.end
         self.end.next = node     
         self.count = self.count + 1
         self.end = node
