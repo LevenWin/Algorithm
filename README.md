@@ -13,6 +13,6 @@
 ### 链表
 10. [有序链表公共部分](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkList/12-5-1.py) 🌟
 11. [删除链表倒数第k个节点](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkList/12-6-1.py) 🌟
-11. [删除中间或a/bs节点](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkList/12-6-2.py) 🌟
+12. [删除中间或a/bs节点](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkList/12-6-2.py) 🌟
 
 
