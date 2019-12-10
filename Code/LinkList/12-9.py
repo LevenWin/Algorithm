@@ -2,7 +2,6 @@
 # 约瑟夫环
 from linkedlist import LinkedLink
 from linkedlist import LinkNode
-
 def josephusKill(head, m):
     cur = head.next
     tmp = 1
@@ -13,7 +12,6 @@ def josephusKill(head, m):
     while tmp != 0:
         head = head.next
         tmp -= 1
-        
     return head.value
     
 def getLive(i, m):
