@@ -4,6 +4,27 @@ from linkedlist import LinkedLink
 from linkedlist import LinkNode
 import math
 
+def transform2(head, pivot):
+    bh = head
+    bt = head
+    eh = head
+    et = head
+    sh = head
+    st = head
+    while head != None:
+        n = head.next
+        #小于的链表，相等的链表， 大的链表
+        #然后小 > 等 > 大
+        if head.value > pivot:
+            pass
+        elif head.value == pivot:
+            pass
+        else:
+            pass
+
+        pass
+    
+
 def transform(head, pivot):
     if head == None:
         return head
