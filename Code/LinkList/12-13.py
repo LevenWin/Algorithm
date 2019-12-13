@@ -72,7 +72,6 @@ def twoCircleMeet1(head1, head2, meet1, meet2):
     # 返回meet1 或者meet2应该都行。
     # return meet1 
     return meet2
-    pass
 
 # 环外相交。同一个入环点
 def twoCircleMeet2(head1, head2, meet):
