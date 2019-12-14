@@ -21,7 +21,7 @@
 17. [左边小右边大，中间相等链表](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkList/12-11.py) 🌟🌟
 18. [链表转数字，相加](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkList/12-12.py) 🌟
 19. [链表相交](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkList/12-13.py) 🌟🌟🌟
-
+20. [链表每k个节点反转](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkList/12-14.py) 🌟🌟🌟
 
 
 
