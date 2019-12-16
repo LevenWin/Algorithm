@@ -22,7 +22,7 @@
 18. [链表转数字，相加](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkedList/12-12.py) 🌟
 19. [链表相交](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkLinkedListList/12-13.py) 🌟🌟🌟
 20. [链表每k个节点反转](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkedList/12-14.py) 🌟🌟🌟
-21. [链表每k个节点反转](https://github.com/LevenWin/alogrithm/blob/master/Code/Common/sort.py) 🌟🌟🌟
+21. [排序](https://github.com/LevenWin/alogrithm/blob/master/Code/Common/sort.py) 🌟🌟🌟
 
 
 

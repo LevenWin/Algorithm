@@ -22,9 +22,31 @@ def insertSort(list):
                 list[j] = temp 
                 index = j
             j -= 1
+
+# 快速排序。第一轮 小的在左，大的在右。继续将左右进行同样排序
+def quickSort(list):
+    if len(list) < 2:
+        return list
+    left = []
+    right = []
+    mids = []
+    mid = list[-1]
+    for i in list:
+        if i < mid:
+            left.append(i)
+        if i == mid:
+            mids.append(i)
+        if i > mid:
+            right.append(i)
+    if len(left) > 1:
+        left = quickSort(left)
+    if len(right) > 1:
+        right = quickSort(right)
+    return left + mids + right
+
 if __name__ == "__main__":
     list = [0, 1, 4, 6, 3, 6 ,7, 3 ,8, 9, 5]
-    insertSort(list)
+    list = quickSort(list)
     print(list)
 
 
