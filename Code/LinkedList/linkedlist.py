@@ -6,8 +6,8 @@ class LinkNode(object):
         self.next = None
         self.previous = None
 class LinkedLink(object):
-    def __init__(self):
-        self.dataList = []
+    def __init__(self, list = []):
+        self.dataList = list
         self.head = LinkNode()
         self.end = self.head
         self.count = 0

@@ -71,7 +71,7 @@ def mergeSort(list):
     else:
         return list
         
-# 计数排序
+# 计数排序, 在大量较小整数排序很实用
 def countSort(list):
     large = list[0]
     for i in list:
@@ -94,7 +94,8 @@ def countSort(list):
 
 
 if __name__ == "__main__":
-    list = [0,3,2,1,4,2,6,4,8,9,2]
+    list = [0,3,2,1,4,2,6,4,8,9,2,0,3,2,1,4,2,6,4,8,9,2,0,3,2,1,4,2,6,4,8,9,2,0,3,2,1,4,2,6,4,8,9,2,0,3,2,1,4,2,6,4,8,9,2,0,3,2,1,4,2,6,4,8,9,2]
+    list = list + list + list
     list = countSort(list)
     print(list)
 
