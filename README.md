@@ -23,6 +23,8 @@
 19. [链表相交](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkLinkedListList/12-13.py) 🌟🌟🌟
 20. [链表每k个节点反转](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkedList/12-14.py) 🌟🌟🌟
 21. [排序](https://github.com/LevenWin/alogrithm/blob/master/Code/Common/sort.py) 🌟🌟🌟
+22. [只给出node，删除这个node，单链表](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkedList/12-19.py) 🌟
+
 
 
 
