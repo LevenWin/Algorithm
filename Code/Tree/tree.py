@@ -13,12 +13,20 @@ class Tree(object):
         t5 = Tree(5)
         t6 = Tree(6)
         t7 = Tree(7)
+        t8 = Tree(8)
+        t9 = Tree(9)
+        t10 = Tree(10)
+        t11 = Tree(11)
         t1.left = t2
         t1.right = t3
         t2.left = t4
         t2.right = t5
-        t3.right = t6
-        t6.left  = t7
+        t3.left = t6
+        t3.right = t7
+        t5.left = t8
+        t8.right = t10
+        t6.right = t9
+        t9.left = t11
         return t1
 
     
