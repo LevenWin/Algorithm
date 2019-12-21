@@ -17,6 +17,7 @@ class Tree(object):
         t9 = Tree(9)
         t10 = Tree(10)
         t11 = Tree(11)
+        t12 = Tree(12)
         t1.left = t2
         t1.right = t3
         t2.left = t4
@@ -27,6 +28,16 @@ class Tree(object):
         t8.right = t10
         t6.right = t9
         t9.left = t11
+        t11.left = t12
         return t1
+    # printTree(pt)
+#                   1
+#            2              3
+#         4    5          6   7
+#            8              9 
+#              10         11
+#                       12
+#
+#
 
     

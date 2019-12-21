@@ -25,6 +25,10 @@
 21. [排序](https://github.com/LevenWin/alogrithm/blob/master/Code/Common/sort.py) 🌟🌟🌟
 22. [只给出node，删除这个node，单链表](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkedList/12-19.py) 🌟
 
+### 二叉树
+23. [二叉树各种节点](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkedList/12-20.py) 🌟🌟
+24. [输出树形图二叉树](https://github.com/LevenWin/alogrithm/blob/master/Code/LinkedList/12-21.py) 🌟🌟🌟
+
 
 
 
