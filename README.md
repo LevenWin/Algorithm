@@ -30,6 +30,8 @@
 24. [输出树形图二叉树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/12-21.py) 🌟🌟🌟
 25. [序列化树，反序列](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/12-22.py) 🌟
 26. [Morris遍历树，空间复杂度为1](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/12-26.py) 🌟🌟🌟
+27. [在二叉树中找到累加和为指定值的最长路径长度](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/12-27.py) 🌟🌟🌟
+
 
 
 
