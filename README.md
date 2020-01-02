@@ -33,6 +33,8 @@
 27. [在二叉树中找到累加和为指定值的最长路径长度](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/12-27.py) 🌟🌟🌟
 28. [找到二叉树中的最大搜索二叉子树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/12-28.py) 🌟🌟
 29. [找到二叉树中的最大搜索二叉子树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/12-30.py) 🌟🌟🌟
+29. [打印出通level的节点](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-2.py) 🌟🌟
+
 
 
 

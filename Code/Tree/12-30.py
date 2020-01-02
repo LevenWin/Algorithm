@@ -15,9 +15,10 @@ def maxTop(h, n):
     if h != None and n != None and isBSTNode(h, n, n.value):
         return maxTop(h, n.left) + maxTop(h, n.right) + 1
     return 0
+    # search搜索二叉树里的元素
 def isBSTNode(h, n, v):
     if h == None:
-        return None
+        return False
     if h == n:
         return True
     if h.value > v:
@@ -35,7 +36,6 @@ def preOrder(node, map):
     rs = preOrder(node.right, map)
     modifyMap(node.left, node.value, map, True)
     modifyMap(node.right, node.value, map, False)
-
     lr = None
     rr = None
     if node.left in map:
