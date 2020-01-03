@@ -34,7 +34,9 @@
 28. [找到二叉树中的最大搜索二叉子树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/12-28.py) 🌟🌟
 29. [找到二叉树中符合搜索二叉树条件的最大拓扑结构](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/12-30.py) 🌟🌟🌟
 30. [打印出通level的节点](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-2.py) 🌟🌟
-31. [判断是否是子树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-2.py) 🌟
+31. [判断是否是子树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-3.py) 🌟
+32. [判断是否是平衡二叉树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-3-1.py) 🌟
+
 
 
 
