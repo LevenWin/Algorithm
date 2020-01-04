@@ -35,12 +35,12 @@ class Tree(object):
         t4 = Tree(4)
         t5 = Tree(5)
         t6 = Tree(6)
-        t1.left = t2
-        t1.right = t3
-        t2.left = t4
-        t2.right = t5
-        t3.right = t6
-        return t1
+        t4.left = t2
+        t4.right = t5
+        t2.left = t1
+        t2.right = t3
+        t5.right = t6
+        return t4
     def defatulTree(self):
         t1 = Tree(1)
         t2 = Tree(2)

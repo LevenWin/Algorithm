@@ -1,5 +1,4 @@
 # -*- coding: UTF-8 -*-
-
 from tree import Tree
 import sys
 import os

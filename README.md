@@ -36,6 +36,7 @@
 30. [打印出通level的节点](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-2.py) 🌟🌟
 31. [判断是否是子树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-3.py) 🌟
 32. [判断是否是平衡二叉树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-3-1.py) 🌟
+33. [根据后序数组重建搜索二叉树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-4.py) 🌟🌟
 
 
 
