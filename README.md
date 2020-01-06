@@ -39,6 +39,8 @@
 33. [根据后序数组重建搜索二叉树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-4.py) 🌟🌟
 
 34. [判断一棵二叉树是否为搜索二叉树和完全二叉树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-5.py) 🌟🌟
+35. [根据有序数组重建平衡搜索二叉树,默认递增](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-6.py) 🌟🌟
+
 
 
 
