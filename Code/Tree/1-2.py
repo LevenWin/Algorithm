@@ -2,12 +2,13 @@
 import tree as Tree
 import sys
 import os
-#打印出通level的节点
+
 # 这种奇葩的import。。。实在是不知道了，还是本来就应该这样的import
 o_path = os.getcwd() # 返回当前工作目录
 sys.path.append(o_path) # 添加自己指定的搜索路径
 from Code.StackQueue.dqueue import DQueue
 
+#打印出同level的节点
 def printLevelNode(node):
     q = DQueue()
     level = 1

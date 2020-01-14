@@ -7,7 +7,6 @@ sys.path.append(o_path) # 添加自己指定的搜索路径
 from Code.StackQueue.dqueue import DQueue
 
 # Morris中序遍历 On的事件负责度O1的空间复杂度，来判断一个树是否是搜索二叉树----
-
 def isBST(node):
     cur1 = node
     cur2 = None

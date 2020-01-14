@@ -22,7 +22,25 @@ def decode(s):
         head_node.left = decode(s)
         head_node.right = decode(s)
         return head_node
-    
+def simpleTree():
+    t1 = Tree(1)
+    t2 = Tree(2)
+    t3 = Tree(3)
+    t4 = Tree(4)
+    t5 = Tree(5)
+    t6 = Tree(6)
+    t7 = Tree(7)
+    t8 = Tree(8)
+
+    t1.left = t2
+    t2.left = t4
+    t2.right = t5
+    t1.right = t3
+    t3.left = t6
+    t3.right = t7
+    t7.left = t8
+    return t1
+
 class Tree(object):
     def __init__(self, value):
         self.left = None
