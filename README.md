@@ -42,6 +42,8 @@
 35. [根据有序数组重建平衡搜索二叉树,默认递增](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-6.py) 🌟🌟
 36. [在二叉树中找到两个节点的最近公共祖先](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-14.py) 🌟
 37. [二叉树节点间的最大距离问题](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-15.py) 🌟
+38. [统计和生成所有不同的二叉树](https://github.com/LevenWin/alogrithm/blob/master/Code/Tree/1-17.py) 🌟🌟
+
 
 
 

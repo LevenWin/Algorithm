@@ -4,7 +4,7 @@ from tree import Tree as CTree
 import sys
 import os
 import math
-
+# 二叉树节点间的最大距离问题
 def maxDistance(node):
     if node == None:
         return {"height":0, "distance":0}
