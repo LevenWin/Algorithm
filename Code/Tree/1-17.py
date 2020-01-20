@@ -1,8 +1,4 @@
 # -*- coding: UTF-8 -*-
-import tree as Tree
-from tree import Tree as CTree
-import sys
-import os
 
 # 给定一个整数N，如果N＜1，代表空树结构，否则代表中序遍历的结果为{1，2，3，…，N}。
 # 请返回可能的二叉树结构有多少。
