@@ -28,7 +28,7 @@ def process1(arr, i, rest):
         k+=1
     return res # 已经用了多少个数字拼凑
 
-# 暴力破解
+# 暴力破解 [5,2,3] 10
 def process1Copy(arr, i, rest):
     if i == len(arr):
         return 0 if rest == 0 else -1
@@ -40,7 +40,18 @@ def process1Copy(arr, i, rest):
             res = next + k if res == -1 else min(res, next + k)
         k += 1
     return res
-# 动态规划
+def process2Copy(arr, i, rest):
+    if i == len(arr):
+        return 0 if rest == 0 else -1
+    res = -1
+    k = 0
+    while k * arr[i] <  rest:
+        next = process2Copy(arr, i + 1, rest - k * arr[i])
+        if next != -1:
+            res = next + k if res == -1 else min(res, next + k)
+        k += 1
+    return res
+# 动态规划 
 def minCoin(arr, aim):
     if len(arr) == 0 or aim <= 0:
         return 0
@@ -70,8 +81,38 @@ def minCoin(arr, aim):
             rest += 1
         i -= 1
     return dp[0][aim]
+# 从上到下
+def minCoin2(arr, aim):
+    if len(arr) == 0 or aim <= 0:
+        return 0
+    n = len(arr)
+    dp = []
+    for i in range(n):
+        temp = []
+        for j in range(aim + 1):
+            temp.append(-1)   
+        dp.append(temp)
+    i = 0
+    while i < n:
+        rest = 0
+        while rest <= aim:
+            if rest == 0 and i == 0:
+                dp[i][rest] = 0
+            else:
+                dp[i][rest] = -1
+            if i > 0 and dp[i-1][rest] != -1:
+                dp[i][rest] = dp[i-1][rest]
+            if rest - arr[i] >= 0 and dp[i][rest - arr[i]] != -1:
+                if dp[i][rest] == -1:
+                    dp[i][rest] = dp[i][rest - arr[i]] + 1
+                else:
+                    dp[i][rest] = min(dp[i][rest], dp[i][rest - arr[i]] + 1)
+            rest += 1
+        i += 1
+    return dp[n-1][aim]
+
 
 if __name__ == "__main__":
-   print(minCoin([5,2,1,3],10)) 
+   print(minCoin2([5,2,1,3],10)) 
     # for i in range(10,0,-1):
     #     print(i)
