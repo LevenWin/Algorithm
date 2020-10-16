@@ -1,6 +1,6 @@
 // 116. 填充每个节点的下一个右侧节点指针
 const common = require("../JavaScript/common")
-
+    // 1
 function soluation(nodeArr, i) {
     if (nodeArr.length == 0) {
         return
@@ -27,8 +27,18 @@ function setNullForRightBorder(node) {
         setNullForRightBorder(node.right)
     }
 }
+// 2
+function soluation2(node) {
+    if (node == undefined || node.left == undefined) {
+        return undefined
+    }
+    node.left.next = node.right
+    node.right.next = node.next == null ? null : node.next.left
+    soluation2(node.left)
+    soluation2(node.right)
+}
+
 // 1 + 2 + 4 + 8 = 2
 let node = common.stringToTree({ "s": common.nodeString })
-soluation([node], 1)
-setNullForRightBorder(node)
+soluation2(node)
 console.log(node)

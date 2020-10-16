@@ -26,10 +26,22 @@ function treeToString(s, n) {
     s = treeToString(s, n.right)
     return s
 };
+
+function arrToLink(arr) {
+    var node = {}
+    var head = node
+    for (let item in arr) {
+        node.val = arr[item]
+        node.next = {}
+        node = node.next
+    }
+    return head
+}
 let nodeString = "1!2!4!?!?!5!?!?!3!6!?!?!7!?!?!"
 
 module.exports = {
     stringToTree,
     treeToString,
-    nodeString
+    nodeString,
+    arrToLink
 }
