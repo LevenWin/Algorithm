@@ -31,12 +31,13 @@ function arrToLink(arr) {
     var node = {}
     var head = node
     for (let item in arr) {
-        node.val = arr[item]
         node.next = {}
         node = node.next
+        node.val = arr[item]
     }
     return head
 }
+
 let nodeString = "1!2!4!?!?!5!?!?!3!6!?!?!7!?!?!"
 
 module.exports = {
