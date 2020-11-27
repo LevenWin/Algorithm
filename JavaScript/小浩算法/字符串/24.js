@@ -21,4 +21,49 @@ function soluation1(origin, aim) {
         return 0
     }
 }
-console.log(soluation1("laelao", "lao"))
+
+
+function next2(string) {
+    let i = 1
+    let j = 0
+    let arr = {}
+    arr[i] = 0
+    while (i < string.length) {
+        // j === 0 代表回溯到了第一个点
+        if (j == 0 || string[i - 1] == string[j - 1]) {
+            i += 1
+            j += 1
+            arr[i] = j
+        } else {
+            j = arr[j] // 回溯自身
+        }
+    }
+    return arr
+}
+
+function soluation2(string, aim) {
+    let i = 1
+    let j = 1
+    let nextArr = next1(aim)
+    while (i <= string.length && j <= aim.length) {
+        if (string[i - 1] == aim[j - 1]) {
+            i += 1;
+            j += 1;
+        } else {
+            if (j == 1) {
+                i += 1
+            } else {
+                j = nextArr[j]
+            }
+
+        }
+    }
+    if (j > aim.length) {
+        return i - aim.length
+    }
+    return -1
+}
+
+// KMP算法
+console.log(soluation2("aabbaaaabbccaass", "aabbccaa"))
+    // console.log(soluation2("laelao", "w"))

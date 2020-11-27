@@ -1,5 +1,5 @@
 // 226. 翻转二叉树
-const common = require("../JavaScript/common")
+const common = require("./common")
 
 function soluation(node) {
     if (node == undefined) {

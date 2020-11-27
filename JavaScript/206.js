@@ -1,5 +1,5 @@
 // 206. 反转链表
-const common = require("../JavaScript/common")
+const common = require("./common")
 
 function soluation(node) {
     if (node.next.val == undefined) {
