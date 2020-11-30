@@ -86,6 +86,8 @@
 68. [大数输出](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/小浩算法/字符串/22.js)
 69. [回文字符串](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/小浩算法/字符串/23.js)
 70. [字符串匹配,KMP](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/小浩算法/字符串/24.js)
+71. [字符串倒置，kmp](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/小浩算法/字符串/25.js)
+72. [最后一个单词](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/小浩算法/字符串/26.js)
 
     
 
