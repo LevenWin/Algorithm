@@ -41,6 +41,23 @@ function next2(string) {
     return arr
 }
 
+function next3(string) {
+    let i = 1
+    let j = 0
+    let arr = {}
+    arr[i] = 0
+    while (i < string.length) {
+        if (j == 0 || string[i - 1] == string[j - 1]) {
+            i += 1
+            j += 1
+            arr[i] = j
+        } else {
+            j = arr[j]
+        }
+    }
+    return arr
+}
+
 function soluation2(string, aim) {
     let i = 1
     let j = 1
