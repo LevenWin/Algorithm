@@ -56,7 +56,6 @@
 43. [同构字符串](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/205.js)
 44. [反转链表](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/206.js)
 45. [有序数组的平方](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/977.js)
-
 ### [小浩算法](https://www.geekxh.com)
 46. [数组交集](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/小浩算法/数组/1.js)
 47. [最长公共前缀](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/小浩算法/数组/2.js)
@@ -89,9 +88,12 @@
 71. [字符串倒置，kmp](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/小浩算法/字符串/25.js)
 72. [最后一个单词](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/小浩算法/字符串/26.js)
 
-    
 
-
+ ### Leetcode
+ 73. [数组目标和](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/Leetcode/1.js)
+ 74. [数组数字相加](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/Leetcode/2.js)
+ 75. [最常无重复字符串](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/Leetcode/3.js)
+ 75. [前K高频单词](https://github.com/LevenWin/alogrithm/blob/master/JavaScript/Leetcode/692.js)
 
 
 
